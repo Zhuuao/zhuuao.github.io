@@ -1,0 +1,38 @@
+html {
+    font-size: 10px; /* px 表示“像素（pixel）”: 基础字号为 10 像素 */
+    font-family: "Open Sans", sans-serif; /* 这应该是你从 Google Fonts 得到的其余输出。 */
+
+    background-color: #e5e8ea;
+
+      
+  }
+
+  body {
+    width: 600px;
+    margin: 0 auto; /* 第一个值影响元素的上下方向 第二个值影响左右方向 auto 是一个特殊的值，它将可用的水平空间平均分配给左边和右边 */
+    background-color: #ff9500;
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
+  }
+
+  h1 {
+    margin: 0;
+    padding: 20px 0;
+    color: #00539f;
+    text-shadow: 3px 3px 1px black;
+  }
+  
+  img {
+    display: block;
+    margin: 0 auto;
+    width: 300px
+  }
+
+p,
+li {
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+  }
+  
+  
